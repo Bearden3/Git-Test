@@ -11,9 +11,14 @@ namespace Git_Hub_HW
         static void Main(string[] args)
         {
             Console.WriteLine("Hellow World!");
-            Console.WriteLine("I am thinking of a number betwen 0 - 100");
+            Console.WriteLine("Select a starting number");
+            int start = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Select a ending number");
+            int end = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("I am thinking of a number betwen "+start+" - "+end);
             Random rnd = new Random();
-            int num = rnd.Next(1, 101);
+            int num = rnd.Next(start, end+1);
             int i = 1;
             Console.WriteLine("What is your guess?");
             int choice = Convert.ToInt32(Console.ReadLine());
