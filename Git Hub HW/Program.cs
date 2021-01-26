@@ -10,7 +10,7 @@ namespace Git_Hub_HW
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hellow World!");
+            
             Console.WriteLine("Select a starting number");
             int start = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Select a ending number");
