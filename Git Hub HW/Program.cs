@@ -10,6 +10,8 @@ namespace Git_Hub_HW
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hellow World!");
+            
         }
     }
 }
